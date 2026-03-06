@@ -1,0 +1,213 @@
+(footprint "NX3225"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d693f6c9-d08e-462a-8921-7b03064cc7be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f7f68466-d794-43dc-998c-c7f54e609346")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7249267-6fa9-4992-b563-7e2562ddb4f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad0c6086-65af-489b-ab7b-e5712633e71a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.6 -1.2)
+		(end -1.6 1.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f592e91-4c3e-4c01-b328-db0cd741096d")
+	)
+	(fp_line
+		(start -1.6 1.2)
+		(end 1.6 1.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5958e5cf-be8e-4069-bc86-1c0ca2baa24b")
+	)
+	(fp_line
+		(start -1.4 0.6825)
+		(end -1.4 -0.6825)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d45d8fd9-a9ec-4f55-a7cf-52630cbe5a63")
+	)
+	(fp_line
+		(start -1.0825 -1)
+		(end 1.0825 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c3dea79-dfed-41ec-9dfb-9ed9fbab67f2")
+	)
+	(fp_line
+		(start 1.0825 1)
+		(end -1.0825 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16ebe746-2c50-4404-8535-ba40b3c1948a")
+	)
+	(fp_line
+		(start 1.4 -0.6825)
+		(end 1.4 0.6825)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b887e1e6-fc22-497f-a096-3dee44585ed6")
+	)
+	(fp_line
+		(start 1.6 -1.2)
+		(end -1.6 -1.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e25637c-8d13-406d-a8e7-041f12fe97ab")
+	)
+	(fp_line
+		(start 1.6 1.2)
+		(end 1.6 -1.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d24f20ce-4419-4110-a1d9-c5e252dab0ba")
+	)
+	(fp_arc
+		(start -1.4 -0.6825)
+		(mid -1.307006 -0.907006)
+		(end -1.0825 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3312c26-8765-4e24-883d-b21df3ee44a5")
+	)
+	(fp_arc
+		(start -1.0825 1)
+		(mid -1.307006 0.907006)
+		(end -1.4 0.6825)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3befe6c0-c028-4ae7-9e37-aeab123eb118")
+	)
+	(fp_arc
+		(start 1.0825 -1)
+		(mid 1.307006 -0.907006)
+		(end 1.4 -0.6825)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f425b3c6-fdac-41e9-b633-b63e3a69ad88")
+	)
+	(fp_arc
+		(start 1.4 0.6825)
+		(mid 1.307006 0.907006)
+		(end 1.0825 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6dd709eb-a3e8-4957-b3ad-a0f2a256bd6f")
+	)
+	(pad "1" smd rect
+		(at -1.1 -0.8 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "628d9903-0487-439c-8aab-18141ab9d48d")
+	)
+	(pad "2" smd rect
+		(at 1.1 -0.8 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a6038ffb-aafc-4e3d-b8bb-0b7c659b1889")
+	)
+	(pad "3" smd rect
+		(at 1.1 0.8 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "5151e37a-f3ad-4148-a70b-5829245286ef")
+	)
+	(pad "4" smd rect
+		(at -1.1 0.8 90)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1016)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "3b538b57-f8db-4134-8a19-4ae0b607e614")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Juice Rescue v2 - hw1.0.2")(type "KiCad")(uri "$(KIPRJMOD)/Juice Rescue v2 - hw1.0.2.pretty")(options "")(descr ""))
+)
