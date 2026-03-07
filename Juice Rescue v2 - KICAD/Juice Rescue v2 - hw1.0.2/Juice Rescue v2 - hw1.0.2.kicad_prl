@@ -124,7 +124,7 @@
       "otherItems": true,
       "pins": true,
       "symbols": true,
-      "text": true,
+      "text": false,
       "wires": true
     }
   }
