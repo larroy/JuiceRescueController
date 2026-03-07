@@ -9318,7 +9318,7 @@
 			)
 		)
 		(property "Value" "MOV"
-			(at 5.6466 -0.0778 -90)
+			(at 5.6466 -0.0778 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1efdcacc-5a40-488c-af36-7211e6d69831")
@@ -14664,7 +14664,7 @@
 			)
 		)
 		(property "Value" "MOV"
-			(at 4.5274 0.2746 -90)
+			(at 4.5274 0.2746 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bf28a94e-3ea1-4860-800a-79770842aaec")
@@ -21830,7 +21830,7 @@
 		(at 211.7155 120.2519 -90)
 		(descr "MKS3, 10 x 4 mm, grid 7.62 mm")
 		(property "Reference" "C39"
-			(at -9.017 -0.635 -90)
+			(at -9.017 -0.635 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "b477c871-030a-4ced-8b3b-9a6d72eaced1")
@@ -21843,7 +21843,7 @@
 			)
 		)
 		(property "Value" "10000pf"
-			(at -3.81 -3.556 -90)
+			(at -3.81 -3.556 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "a3e1a1d5-9cdc-43d1-8f4f-a8639d0868aa")
@@ -22060,7 +22060,7 @@
 		(uuid "161d5a82-2705-4a74-a687-ce57c6773e24")
 		(at 184.2581 123.4269 180)
 		(property "Reference" "PS1"
-			(at 1.778 21.59 -0)
+			(at 1.778 21.59 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "160f280b-5857-4a4a-b463-e62689f12da7")
@@ -22550,7 +22550,7 @@
 		(at 188.9317 120.3535 -90)
 		(descr "MKS3, 10 x 4 mm, grid 7.62 mm")
 		(property "Reference" "C40"
-			(at -10.1346 -0.635 -90)
+			(at -10.1346 -0.635 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "c20bc620-e46b-4ce1-9738-2a639ca3de1a")
@@ -22563,7 +22563,7 @@
 			)
 		)
 		(property "Value" "10000pf"
-			(at -3.81 -3.556 -90)
+			(at -3.81 -3.556 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ffaf6b94-ee85-41a1-a7f4-66699477f093")
@@ -28340,14 +28340,6 @@
 		(uuid "06709746-f48e-441e-9bf0-2810ba7d612c")
 	)
 	(segment
-		(start 125.7865 94.1653)
-		(end 125.7619 94.1407)
-		(width 0.3048)
-		(layer "F.Cu")
-		(net 44)
-		(uuid "10d56d58-4043-4511-8d69-2ed891a4290d")
-	)
-	(segment
 		(start 118.4215 93.3653)
 		(end 117.3919 93.3653)
 		(width 0.4064)
@@ -28394,14 +28386,6 @@
 		(layer "F.Cu")
 		(net 44)
 		(uuid "62380f8d-9b4a-48aa-a4e7-fec60b44cff5")
-	)
-	(segment
-		(start 127.0067 94.1653)
-		(end 125.7865 94.1653)
-		(width 0.3048)
-		(layer "F.Cu")
-		(net 44)
-		(uuid "635b7824-672e-471c-906e-a9ed6edf9735")
 	)
 	(segment
 		(start 128.8447 93.2877)
