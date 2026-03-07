@@ -10935,7 +10935,7 @@
 		(uuid "1d292829-2f39-46cf-882a-5deea62c10ae")
 	)
 	(junction
-		(at 31.75 114.3)
+		(at 109.22 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e643356-3ebc-4e99-8b4d-6cc32654a123")
@@ -10947,13 +10947,13 @@
 		(uuid "20cef17d-69d0-4580-b4e3-ef1f1dace2c7")
 	)
 	(junction
-		(at 487.68 223.52)
+		(at 520.7 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "259136fe-41a3-4373-8bbe-d634640a58ae")
 	)
 	(junction
-		(at 469.9 236.22)
+		(at 502.92 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27577355-a9e6-473b-bee9-1bee517730dd")
@@ -11025,7 +11025,7 @@
 		(uuid "46f365b3-eeb8-4041-9773-d4aa28b510ad")
 	)
 	(junction
-		(at 43.18 78.74)
+		(at 120.65 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4839fa6d-ecee-4e82-9dc7-109c442e3406")
@@ -11079,7 +11079,7 @@
 		(uuid "5a90d699-48df-450d-90db-685ffd21fffa")
 	)
 	(junction
-		(at 482.6 228.6)
+		(at 515.62 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b5d02eb-e7eb-4c60-b4b0-68e02d8b805b")
@@ -11151,7 +11151,7 @@
 		(uuid "6e8fa9b4-8d3c-48c5-b858-193f9f80d854")
 	)
 	(junction
-		(at 556.26 223.52)
+		(at 589.28 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "710fe4b7-835a-42cf-bd1c-af1ee43ea8ed")
@@ -11253,7 +11253,7 @@
 		(uuid "adc32316-ff66-4157-87be-4176831ee6f4")
 	)
 	(junction
-		(at 31.75 119.38)
+		(at 109.22 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b028c535-d05d-450e-b788-653e2f5aeb63")
@@ -11265,7 +11265,7 @@
 		(uuid "b070cec8-44a2-462a-8876-8f2459f2f75e")
 	)
 	(junction
-		(at 482.6 236.22)
+		(at 515.62 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1b4afcd-e032-467a-a40e-b59d8b33693b")
@@ -11277,7 +11277,7 @@
 		(uuid "b36b1f59-cf9c-4d96-a913-90b99e572028")
 	)
 	(junction
-		(at 510.54 223.52)
+		(at 543.56 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b44d9e2f-35d9-414a-9d57-8fb5269d7813")
@@ -11313,7 +11313,7 @@
 		(uuid "c95e325d-22a1-43ab-8a04-7d87a10da033")
 	)
 	(junction
-		(at 556.26 231.14)
+		(at 589.28 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc99db01-5eaa-4bac-8ca3-e5adb2de686d")
@@ -11385,7 +11385,7 @@
 		(uuid "e520891c-d470-4f2b-91fe-51cb18fc2685")
 	)
 	(junction
-		(at 31.75 111.76)
+		(at 109.22 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e746d155-3a0e-4aab-bf47-4807679453d0")
@@ -11415,7 +11415,7 @@
 		(uuid "f078601d-6aae-413c-8659-8cb96d765bfe")
 	)
 	(junction
-		(at 510.54 231.14)
+		(at 543.56 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f392511c-b9d0-4d37-ba61-3b79c4956e02")
@@ -11492,7 +11492,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 111.76) (xy 31.75 114.3)
+			(xy 109.22 90.17) (xy 109.22 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -11502,7 +11502,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 114.3) (xy 31.75 119.38)
+			(xy 109.22 92.71) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -11532,7 +11532,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 231.14) (xy 502.92 228.6)
+			(xy 535.94 195.58) (xy 535.94 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -11612,7 +11612,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 35.56 101.6)
+			(xy 120.65 80.01) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -11652,7 +11652,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 233.68) (xy 487.68 236.22)
+			(xy 520.7 198.12) (xy 520.7 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -11692,7 +11692,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 226.06) (xy 459.74 226.06)
+			(xy 500.38 190.5) (xy 492.76 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -11752,7 +11752,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 231.14) (xy 510.54 231.14)
+			(xy 535.94 195.58) (xy 543.56 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -11832,7 +11832,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 38.1 109.22)
+			(xy 109.22 87.63) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -12202,7 +12202,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 228.6) (xy 482.6 228.6)
+			(xy 535.94 193.04) (xy 515.62 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -12482,7 +12482,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 114.3) (xy 38.1 114.3)
+			(xy 109.22 92.71) (xy 115.57 92.71)
 		)
 		(stroke
 			(width 0)
@@ -12492,7 +12492,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 231.14) (xy 518.16 231.14)
+			(xy 543.56 195.58) (xy 551.18 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -12552,7 +12552,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 233.68) (xy 482.6 236.22)
+			(xy 515.62 198.12) (xy 515.62 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -12982,7 +12982,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 236.22) (xy 487.68 236.22)
+			(xy 515.62 200.66) (xy 520.7 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -13032,7 +13032,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 223.52) (xy 551.18 223.52)
+			(xy 589.28 187.96) (xy 584.2 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -13052,7 +13052,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 83.82) (xy 43.18 78.74)
+			(xy 120.65 62.23) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -13172,7 +13172,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 228.6) (xy 482.6 228.6)
+			(xy 500.38 193.04) (xy 515.62 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -13192,7 +13192,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 109.22) (xy 31.75 111.76)
+			(xy 109.22 87.63) (xy 109.22 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -13532,7 +13532,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 78.74) (xy 43.18 78.74)
+			(xy 115.57 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0.1524)
@@ -13542,7 +13542,7 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 223.52) (xy 487.68 223.52)
+			(xy 492.76 187.96) (xy 520.7 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -13672,7 +13672,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 81.28 93.98)
+			(xy 146.05 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -13992,7 +13992,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 223.52) (xy 510.54 223.52)
+			(xy 520.7 187.96) (xy 543.56 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -14242,7 +14242,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 119.38) (xy 43.18 119.38)
+			(xy 109.22 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -14322,7 +14322,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 111.76) (xy 38.1 111.76)
+			(xy 109.22 90.17) (xy 115.57 90.17)
 		)
 		(stroke
 			(width 0)
@@ -14502,7 +14502,7 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 236.22) (xy 469.9 236.22)
+			(xy 515.62 200.66) (xy 502.92 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -14602,7 +14602,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 223.52) (xy 556.26 223.52)
+			(xy 596.9 187.96) (xy 589.28 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -14752,7 +14752,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 81.28 101.6)
+			(xy 146.05 80.01) (xy 158.75 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -15042,7 +15042,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 35.56 104.14)
+			(xy 120.65 82.55) (xy 113.03 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -15112,7 +15112,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 236.22) (xy 467.36 236.22)
+			(xy 502.92 200.66) (xy 500.38 200.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -15142,7 +15142,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 96.52) (xy 81.28 96.52)
+			(xy 146.05 74.93) (xy 158.75 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -15222,7 +15222,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 223.52) (xy 518.16 223.52)
+			(xy 543.56 187.96) (xy 551.18 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -15262,7 +15262,7 @@
 	)
 	(wire
 		(pts
-			(xy 556.26 231.14) (xy 563.88 233.68)
+			(xy 589.28 195.58) (xy 596.9 198.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -15282,7 +15282,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 226.06) (xy 487.68 223.52)
+			(xy 520.7 190.5) (xy 520.7 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -15322,7 +15322,7 @@
 	)
 	(wire
 		(pts
-			(xy 551.18 231.14) (xy 556.26 231.14)
+			(xy 584.2 195.58) (xy 589.28 195.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -15352,7 +15352,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 226.06) (xy 467.36 228.6)
+			(xy 500.38 190.5) (xy 500.38 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -15761,7 +15761,7 @@
 		(uuid "731119f1-19ea-4d8e-be64-be44bf08f9c0")
 	)
 	(label "ACL"
-		(at 560.07 232.41 270)
+		(at 593.09 196.85 270)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15901,7 +15901,7 @@
 		(uuid "90b88d44-5461-4a7f-9f20-0a3ecea5af7d")
 	)
 	(label "ACLIN"
-		(at 482.6 228.6 0)
+		(at 515.62 193.04 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15951,7 +15951,7 @@
 		(uuid "abd0b8f1-06ea-4e3e-a63a-95fbd5561fa5")
 	)
 	(label "RED"
-		(at 73.66 93.98 0)
+		(at 151.13 72.39 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15971,7 +15971,7 @@
 		(uuid "ad2e7084-1864-44d8-a209-2480cc2bb299")
 	)
 	(label "SCL"
-		(at 35.56 101.6 0)
+		(at 113.03 80.01 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16031,7 +16031,7 @@
 		(uuid "b6c08eb1-59a0-4cf7-bf69-ff9a85286582")
 	)
 	(label "ACN"
-		(at 560.07 223.52 180)
+		(at 593.09 187.96 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16071,7 +16071,7 @@
 		(uuid "cc769f50-c3e1-4dff-8bb9-ff52df3b5696")
 	)
 	(label "ACNIN"
-		(at 482.6 223.52 0)
+		(at 515.62 187.96 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16101,7 +16101,7 @@
 		(uuid "db8cee2b-3815-418b-80a2-ea27d2e47e0b")
 	)
 	(label "GREEN"
-		(at 73.66 96.52 0)
+		(at 151.13 74.93 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16111,7 +16111,7 @@
 		(uuid "e24d5445-86f7-439c-99b5-7441e9308179")
 	)
 	(label "ACLIN"
-		(at 459.74 226.06 0)
+		(at 492.76 190.5 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16151,7 +16151,7 @@
 		(uuid "ec88fd38-3c2e-4896-a989-69555ece20db")
 	)
 	(label "BLUE"
-		(at 73.66 101.6 0)
+		(at 151.13 80.01 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16161,7 +16161,7 @@
 		(uuid "edfaf693-8e9f-4cad-9984-281727cb63e2")
 	)
 	(label "ACNIN"
-		(at 459.74 223.52 0)
+		(at 492.76 187.96 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16191,7 +16191,7 @@
 		(uuid "f27bef14-4967-45d3-8d29-8b4b4d904a8a")
 	)
 	(label "SDA"
-		(at 35.56 104.14 0)
+		(at 113.03 82.55 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16604,7 +16604,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:MCP23017SO")
-		(at 55.88 99.06 0)
+		(at 133.35 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16612,7 +16612,7 @@
 		(dnp no)
 		(uuid "0524f226-5c6b-455a-abff-33e88a00e36b")
 		(property "Reference" "IC5"
-			(at 45.72 74.93 0)
+			(at 123.19 53.34 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16621,7 +16621,7 @@
 			)
 		)
 		(property "Value" "MCP23017SO"
-			(at 45.72 124.46 0)
+			(at 123.19 102.87 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16630,7 +16630,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:SO28W"
-			(at 55.88 99.06 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16639,7 +16639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 99.06 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16648,7 +16648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 99.06 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19613,7 +19613,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:PE")
-		(at 467.36 236.22 270)
+		(at 500.38 200.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19621,7 +19621,7 @@
 		(dnp no)
 		(uuid "3f1abcbb-1259-4e29-8f49-b3a909f8565d")
 		(property "Reference" "#SUPPLY4"
-			(at 467.36 236.22 0)
+			(at 500.38 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19630,7 +19630,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 467.741 231.775 0)
+			(at 500.761 196.215 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -19639,7 +19639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 467.36 236.22 0)
+			(at 500.38 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19648,7 +19648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 467.36 236.22 0)
+			(at 500.38 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19657,7 +19657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 467.36 236.22 0)
+			(at 500.38 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20172,7 +20172,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:C7.5/4")
-		(at 510.54 226.06 0)
+		(at 543.56 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20180,7 +20180,7 @@
 		(dnp no)
 		(uuid "49673d8a-0bbb-458a-9e0b-48a6b04b8c95")
 		(property "Reference" "C39"
-			(at 512.064 225.679 0)
+			(at 545.084 190.119 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20189,7 +20189,7 @@
 			)
 		)
 		(property "Value" "10000pf"
-			(at 512.064 230.759 0)
+			(at 545.084 195.199 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -20198,7 +20198,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:C7.5B4"
-			(at 510.54 226.06 0)
+			(at 543.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20207,7 +20207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 226.06 0)
+			(at 543.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20216,7 +20216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 510.54 226.06 0)
+			(at 543.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21391,7 +21391,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 40.64 109.22 0)
+		(at 118.11 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21399,7 +21399,7 @@
 		(dnp no)
 		(uuid "6081752d-42db-4c98-8b53-b0934ce8de97")
 		(property "Reference" "JP1"
-			(at 40.64 107.95 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21407,7 +21407,7 @@
 			)
 		)
 		(property "Value" "EX_A0"
-			(at 26.67 109.22 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21415,7 +21415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 109.22 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21424,7 +21424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 109.22 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21433,7 +21433,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 40.64 109.22 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21458,7 +21458,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:C7.5/4")
-		(at 556.26 226.06 0)
+		(at 589.28 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21466,7 +21466,7 @@
 		(dnp no)
 		(uuid "60d48878-df75-49a8-905b-6cdf1717438a")
 		(property "Reference" "C40"
-			(at 557.784 225.679 0)
+			(at 590.804 190.119 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21475,7 +21475,7 @@
 			)
 		)
 		(property "Value" "10000pf"
-			(at 557.784 230.759 0)
+			(at 590.804 195.199 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -21484,7 +21484,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:C7.5B4"
-			(at 556.26 226.06 0)
+			(at 589.28 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21493,7 +21493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 556.26 226.06 0)
+			(at 589.28 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21502,7 +21502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 556.26 226.06 0)
+			(at 589.28 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22792,7 +22792,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:DK1")
-		(at 487.68 231.14 90)
+		(at 520.7 195.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22800,7 +22800,7 @@
 		(dnp no)
 		(uuid "73ae6d54-4cd0-43d3-8112-e26fb8868800")
 		(property "Reference" "C37"
-			(at 486.156 231.521 90)
+			(at 519.176 195.961 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22810,7 +22810,7 @@
 			)
 		)
 		(property "Value" "1000pf"
-			(at 486.156 226.441 90)
+			(at 519.176 190.881 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22820,7 +22820,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:DK1E3EA"
-			(at 487.68 231.14 0)
+			(at 520.7 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22829,7 +22829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 487.68 231.14 0)
+			(at 520.7 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22838,7 +22838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 487.68 231.14 0)
+			(at 520.7 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22847,7 +22847,7 @@
 			)
 		)
 		(property "C30" ""
-			(at 492.76 231.14 90)
+			(at 525.78 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25249,7 +25249,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 40.64 114.3 0)
+		(at 118.11 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25257,7 +25257,7 @@
 		(dnp no)
 		(uuid "a59a031c-b212-4828-a0cd-0f4b8c00981a")
 		(property "Reference" "JP3"
-			(at 40.64 113.03 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25265,7 +25265,7 @@
 			)
 		)
 		(property "Value" "EX_A2"
-			(at 26.67 114.3 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25273,7 +25273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 114.3 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25282,7 +25282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 114.3 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25291,7 +25291,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 40.64 114.3 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25800,7 +25800,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+5V")
-		(at 35.56 78.74 90)
+		(at 113.03 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25808,7 +25808,7 @@
 		(dnp no)
 		(uuid "ab0f5109-132b-4605-9cce-897ccf3beb15")
 		(property "Reference" "#P+22"
-			(at 35.56 78.74 0)
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25817,7 +25817,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 40.64 81.28 90)
+			(at 118.11 59.69 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -25826,7 +25826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 78.74 0)
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25835,7 +25835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 78.74 0)
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25844,7 +25844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 78.74 0)
+			(at 113.03 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26755,7 +26755,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:GND")
-		(at 31.75 121.92 0)
+		(at 109.22 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26763,7 +26763,7 @@
 		(dnp no)
 		(uuid "bb48b061-58ce-4a6e-8124-20b514b2208a")
 		(property "Reference" "#GND3"
-			(at 31.75 121.92 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26772,7 +26772,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 124.46 0)
+			(at 106.68 102.87 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -26781,7 +26781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 121.92 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26790,7 +26790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 121.92 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26799,7 +26799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 121.92 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29138,7 +29138,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RN214-0.3-02-47M")
-		(at 523.24 236.22 0)
+		(at 556.26 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29146,7 +29146,7 @@
 		(dnp no)
 		(uuid "e1481d67-be2b-4b0f-8d4c-841ddcbaa3be")
 		(property "Reference" "CMC0"
-			(at 523.24 236.22 0)
+			(at 556.26 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29155,7 +29155,7 @@
 			)
 		)
 		(property "Value" "RN214-0.3-02-47M"
-			(at 523.24 236.22 0)
+			(at 556.26 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29164,7 +29164,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:RN214-0.3-02-47M"
-			(at 523.24 236.22 0)
+			(at 556.26 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29173,7 +29173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 523.24 236.22 0)
+			(at 556.26 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29182,7 +29182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 523.24 236.22 0)
+			(at 556.26 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29699,7 +29699,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:DK1")
-		(at 482.6 233.68 90)
+		(at 515.62 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29707,7 +29707,7 @@
 		(dnp no)
 		(uuid "e870d3b8-4e3b-4ca0-a49e-0f979bb97b39")
 		(property "Reference" "RF1"
-			(at 481.076 234.061 90)
+			(at 514.096 198.501 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -29717,7 +29717,7 @@
 			)
 		)
 		(property "Value" "1000pf"
-			(at 481.076 228.981 90)
+			(at 514.096 193.421 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -29727,7 +29727,7 @@
 			)
 		)
 		(property "Footprint" "Juice Rescue v2 - hw1.0.2:DK1E3EA"
-			(at 482.6 233.68 0)
+			(at 515.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29736,7 +29736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 482.6 233.68 0)
+			(at 515.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29745,7 +29745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 482.6 233.68 0)
+			(at 515.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29754,7 +29754,7 @@
 			)
 		)
 		(property "C31" ""
-			(at 482.6 233.68 90)
+			(at 515.62 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29984,7 +29984,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 40.64 111.76 0)
+		(at 118.11 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29992,7 +29992,7 @@
 		(dnp no)
 		(uuid "eb34f6cb-e5d4-4da4-9eeb-cabc3a2c7bde")
 		(property "Reference" "JP2"
-			(at 40.64 110.49 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30000,7 +30000,7 @@
 			)
 		)
 		(property "Value" "EX_A1"
-			(at 26.67 111.76 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30008,7 +30008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 111.76 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30017,7 +30017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 111.76 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30026,7 +30026,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 40.64 111.76 0)
+			(at 118.11 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
