@@ -5,237 +5,6 @@
 	(uuid "dc23f6cf-65e9-4621-9791-f98f2f73fe59")
 	(paper "User" 630.072 260.198)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:+12V"
 			(power)
 			(exclude_from_sim no)
@@ -4576,799 +4345,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:ESP32_WROOM32_SKINNY"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:WROOM32_SKINNY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ESP32_WROOM32_SKINNY_1_0"
-				(polyline
-					(pts
-						(xy -17.78 35.56) (xy 22.86 35.56)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -22.86) (xy -17.78 35.56)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 35.56) (xy 22.86 -22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -22.86) (xy -17.78 -22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -22.86 17.78 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 15.24 0)
-					(length 5.08)
-					(name "IO36/SEN_VP/A1_0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -22.86 12.7 0)
-					(length 5.08)
-					(name "IO39/SEN_VN/A1_3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 2.54 0)
-					(length 5.08)
-					(name "SD2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 0 0)
-					(length 5.08)
-					(name "SD3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -2.54 0)
-					(length 5.08)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -5.08 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "SD0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "SD1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -15.24 0)
-					(length 5.08)
-					(name "RXD0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 40.64 270)
-					(length 5.08)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -27.94 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 33.02 180)
-					(length 5.08)
-					(name "IO0/A2_1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 30.48 180)
-					(length 5.08)
-					(name "IO2/A2_2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 27.94 180)
-					(length 5.08)
-					(name "IO4/A2_0"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 25.4 180)
-					(length 5.08)
-					(name "IO5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 22.86 180)
-					(length 5.08)
-					(name "IO12/A2_5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 20.32 180)
-					(length 5.08)
-					(name "IO13/A2_4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 17.78 180)
-					(length 5.08)
-					(name "IO14/A2_6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 15.24 180)
-					(length 5.08)
-					(name "IO15/A2_3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 12.7 180)
-					(length 5.08)
-					(name "IO16"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 10.16 180)
-					(length 5.08)
-					(name "IO17"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 7.62 180)
-					(length 5.08)
-					(name "IO18"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 5.08 180)
-					(length 5.08)
-					(name "IO19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 2.54 180)
-					(length 5.08)
-					(name "IO21"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "IO22"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "IO23"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "IO25/DAC1/A2_8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "IO26/DAC2/A2_9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -10.16 180)
-					(length 5.08)
-					(name "IO27/A2_7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -12.7 180)
-					(length 5.08)
-					(name "IO32/A1_4/X32P"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -15.24 180)
-					(length 5.08)
-					(name "IO33/A1_5/X32N"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -17.78 180)
-					(length 5.08)
-					(name "I34/A1_6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 -20.32 180)
-					(length 5.08)
-					(name "I35/A1_7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:FIDUCIAL1X2.5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7483,205 +6459,6 @@
 						(effects
 							(font
 								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:M03JST-SMD"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 5.842 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:JST-3-SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Header 3 Standard 3-pin 0.1\" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "M03JST-SMD_1_0"
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -9994,271 +8771,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:QWIIC_CONNECTORJS-1MM"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 7.874 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -5.08 -5.334 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:JST04_1MM_RA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SparkFun I2C Standard Qwiic Connector An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I2C devices to each other. The Qwiic system enables fast and solderless connection between popular platforms and various sensors and actuators.\n\nWe carry 200mm, 100mm, 50mm, and breadboard friendly Qwiic cables. We also offer 10 pcs strips the SMD connectors."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "QWIIC_CONNECTORJS-1MM_1_0"
-				(polyline
-					(pts
-						(xy -5.08 7.62) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 7.62) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "SCL"
-					(at -4.572 5.08 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left)
-					)
-				)
-				(text "SDA"
-					(at -4.572 2.54 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left)
-					)
-				)
-				(text "VCC"
-					(at -4.572 0 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left)
-					)
-				)
-				(text "GND"
-					(at -4.572 -2.54 0)
-					(effects
-						(font
-							(size 1.778 1.778)
-						)
-						(justify left)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:R-US_R1206"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10419,211 +8931,6 @@
 					)
 					(stroke
 						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" ""
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic Resistor Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR0805_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
 						(type solid)
 					)
 					(fill
@@ -11460,385 +9767,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:SWITCH_TACT_SMT4.6X2.8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at -2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:BTN_KMR2_4.6X2.8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMT Tact Switches\n\n• 6x6mm - Digikey: P12940SCT-ND\n• KMR2 (4.6x2.8mm) - Digikey: 401-1426-1-ND\n• EVQ-PQHB55 - Light Touch, 160GF (4.5x4.5mm) - Digikey: P8090SCT-ND\n• KMT0 - KMT021 NGJ LHS (etc.) IP68/Waterproof - Digikey: CKN10289CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SWITCH_TACT_SMT4.6X2.8_1_0"
-				(circle
-					(center -2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 4.445) (xy -1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.445) (xy -1.905 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.445) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 0 4.445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 1.905 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "P"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A'"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "B'"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:SparkFun-PowerSymbols_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 -0.254 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ground Supply Symbol\n\nGeneric signal ground supply symbol."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SparkFun-PowerSymbols_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:TC1044S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12085,604 +10013,6 @@
 						(effects
 							(font
 								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Juice Rescue v2 - hw1.0.2-eagle-import:WS2812B3535"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Juice Rescue v2 - hw1.0.2:LED3535"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WS2812B3535_1_0"
-				(polyline
-					(pts
-						(xy -7.62 10.16) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 7.62) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy -5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -5.08 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.064) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 7.62) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 10.16) (xy -7.62 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 10.16) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 10.16) (xy 5.08 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "WS2812B"
-					(at -4.064 8.382 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "DI"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 15.24 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "DO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -13464,305 +10794,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS138"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSS138_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS138_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Pilot"
 		(exclude_from_sim no)
@@ -13874,12 +10905,6 @@
 		(uuid "12f16841-c6c4-4fcd-b7e0-c9cab721a68f")
 	)
 	(junction
-		(at 572.77 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15325483-a1f6-4591-a474-05c6fe280fb5")
-	)
-	(junction
 		(at 238.76 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13922,12 +10947,6 @@
 		(uuid "20cef17d-69d0-4580-b4e3-ef1f1dace2c7")
 	)
 	(junction
-		(at 594.36 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2395ac9a-777b-4fd3-8a17-15c771205254")
-	)
-	(junction
 		(at 487.68 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13946,7 +10965,7 @@
 		(uuid "2a09fd06-d689-450b-b732-dc265d4d54f5")
 	)
 	(junction
-		(at 27.94 215.9)
+		(at 91.44 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a8ff309-fba6-419f-9c23-0555d4dda795")
@@ -14012,12 +11031,6 @@
 		(uuid "4839fa6d-ecee-4e82-9dc7-109c442e3406")
 	)
 	(junction
-		(at 520.7 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49eef4c5-6f67-47db-bf34-3c53645792f1")
-	)
-	(junction
 		(at 373.38 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14046,12 +11059,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527f58df-9cd4-4234-907a-e38ed360fc55")
-	)
-	(junction
-		(at 490.22 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5760513a-156c-4870-a124-50bcca868e40")
 	)
 	(junction
 		(at 236.22 167.64)
@@ -14084,7 +11091,7 @@
 		(uuid "5cf4e125-207b-4f8f-91df-7ffd9a012ee3")
 	)
 	(junction
-		(at 27.94 218.44)
+		(at 91.44 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d04c417-74d4-442b-b691-0ed09caf6cdd")
@@ -14106,18 +11113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61bd9b4e-db77-404e-8829-d3253871defa")
-	)
-	(junction
-		(at 520.7 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "628361c7-279e-4cd8-886d-2c1f25bbc7bb")
-	)
-	(junction
-		(at 575.31 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62a2e718-8086-4f4c-9fb4-fdcdc817bcc2")
 	)
 	(junction
 		(at 472.44 167.64)
@@ -14148,12 +11143,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f02a0f-3731-44d9-9073-83e5dd42c3ff")
-	)
-	(junction
-		(at 69.85 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ada0661-757b-44b3-a44a-99c409658af4")
 	)
 	(junction
 		(at 320.04 35.56)
@@ -14216,12 +11205,6 @@
 		(uuid "9026bd9d-b481-4b49-9904-600bc9c56520")
 	)
 	(junction
-		(at 69.85 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90e3f3e7-b139-439c-b837-e6f6db39d865")
-	)
-	(junction
 		(at 203.2 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14258,12 +11241,6 @@
 		(uuid "a41d7d1f-65d2-416f-88f2-8467e4dd17df")
 	)
 	(junction
-		(at 596.9 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6e67044-f508-42b7-a20f-79759a703ab0")
-	)
-	(junction
 		(at 220.98 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14274,18 +11251,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adc32316-ff66-4157-87be-4176831ee6f4")
-	)
-	(junction
-		(at 575.31 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ade0bca8-5686-44aa-a520-37430d4ab706")
-	)
-	(junction
-		(at 596.9 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae43749c-99ce-4581-a4f7-2c823623232e")
 	)
 	(junction
 		(at 31.75 119.38)
@@ -14318,22 +11283,10 @@
 		(uuid "b44d9e2f-35d9-414a-9d57-8fb5269d7813")
 	)
 	(junction
-		(at 594.36 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9521921-b101-4d11-9549-66a54c8f9bb6")
-	)
-	(junction
 		(at 340.36 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9dc7ba4-e723-4d67-a1e9-6a843a147f29")
-	)
-	(junction
-		(at 490.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be719863-a354-46bf-8b43-484382225596")
 	)
 	(junction
 		(at 441.96 121.92)
@@ -14378,28 +11331,10 @@
 		(uuid "ce9c8919-1337-42ce-b0e7-bdc288c0aba8")
 	)
 	(junction
-		(at 575.31 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfc1e1c7-3077-4b0a-aa4d-39059867b5c4")
-	)
-	(junction
-		(at 490.22 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d06b2afe-4ecb-4ba6-950e-1367b239356a")
-	)
-	(junction
 		(at 266.7 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1ab8724-f6ab-4170-8d69-e3a1e44044fa")
-	)
-	(junction
-		(at 575.31 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2685928-724c-48dd-b7c0-470a9e41a56b")
 	)
 	(junction
 		(at 195.58 93.98)
@@ -14537,16 +11472,6 @@
 	)
 	(wire
 		(pts
-			(xy 575.31 144.78) (xy 584.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02627611-f971-421d-b96b-bfda90d49983")
-	)
-	(wire
-		(pts
 			(xy 467.36 45.72) (xy 467.36 53.34)
 		)
 		(stroke
@@ -14647,26 +11572,6 @@
 	)
 	(wire
 		(pts
-			(xy 572.77 52.07) (xy 582.93 52.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "074ffd14-a137-45f5-b6a1-4cd29b4a2df6")
-	)
-	(wire
-		(pts
-			(xy 584.2 118.11) (xy 584.2 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "075da70a-7edc-4d09-a74a-17136ed671b2")
-	)
-	(wire
-		(pts
 			(xy 452.12 45.72) (xy 452.12 53.34)
 		)
 		(stroke
@@ -14674,16 +11579,6 @@
 			(type solid)
 		)
 		(uuid "075fe3cc-da91-476b-97d3-e27b0305e671")
-	)
-	(wire
-		(pts
-			(xy 572.77 44.45) (xy 575.31 44.45)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "07eb5ff9-8902-4df6-978d-d838ab0a586e")
 	)
 	(wire
 		(pts
@@ -14697,16 +11592,6 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 133.35) (xy 560.07 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a3a0bb4-0aa4-48d2-8e58-25697b6c763d")
-	)
-	(wire
-		(pts
 			(xy 434.34 203.2) (xy 424.18 203.2)
 		)
 		(stroke
@@ -14714,16 +11599,6 @@
 			(type solid)
 		)
 		(uuid "0a681b7f-1d3f-41f4-983d-5289eace1178")
-	)
-	(wire
-		(pts
-			(xy 566.42 154.94) (xy 572.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c419df5-3bd3-478c-a455-558884b8ff2b")
 	)
 	(wire
 		(pts
@@ -14847,16 +11722,6 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 154.94) (xy 589.28 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148bb2ff-ef65-46a1-8c8d-54bf907d75a6")
-	)
-	(wire
-		(pts
 			(xy 434.34 116.84) (xy 434.34 137.16)
 		)
 		(stroke
@@ -14897,7 +11762,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 215.9) (xy 30.48 215.9)
+			(xy 91.44 219.71) (xy 93.98 219.71)
 		)
 		(stroke
 			(width 0)
@@ -14987,7 +11852,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 213.36) (xy 30.48 213.36)
+			(xy 91.44 217.17) (xy 93.98 217.17)
 		)
 		(stroke
 			(width 0)
@@ -15067,16 +11932,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 44.45) (xy 520.7 52.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "22aeec67-4f26-4f71-b593-4da85ac867d7")
-	)
-	(wire
-		(pts
 			(xy 370.84 55.88) (xy 370.84 50.8)
 		)
 		(stroke
@@ -15097,16 +11952,6 @@
 	)
 	(wire
 		(pts
-			(xy 575.31 128.27) (xy 579.12 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24883a57-d207-4661-8adc-25a94f2c542b")
-	)
-	(wire
-		(pts
 			(xy 335.28 190.5) (xy 347.98 190.5)
 		)
 		(stroke
@@ -15124,16 +11969,6 @@
 			(type solid)
 		)
 		(uuid "25af9061-71c9-4a54-b195-b5d10c236ebe")
-	)
-	(wire
-		(pts
-			(xy 518.16 62.23) (xy 520.7 62.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "25f980d3-0f4a-4bca-9f75-cb244493a079")
 	)
 	(wire
 		(pts
@@ -15237,16 +12072,6 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 50.8) (xy 490.22 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2b6c9e26-22a9-46e2-ab61-62881c95498c")
-	)
-	(wire
-		(pts
 			(xy 276.86 195.58) (xy 279.4 195.58)
 		)
 		(stroke
@@ -15337,7 +12162,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 218.44) (xy 27.94 215.9)
+			(xy 91.44 222.25) (xy 91.44 219.71)
 		)
 		(stroke
 			(width 0)
@@ -15415,16 +12240,6 @@
 		)
 		(uuid "361c2574-255f-4260-bacb-12ea676d9650")
 	)
-	(wire
-		(pts
-			(xy 575.31 118.11) (xy 584.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3688b9fe-6bd0-4be2-a90b-15cb8d54c47e")
-	)
 	(polyline
 		(pts
 			(xy 297.18 22.86) (xy 424.18 22.86)
@@ -15477,16 +12292,6 @@
 	)
 	(wire
 		(pts
-			(xy 520.7 52.07) (xy 518.16 52.07)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "39b2dd65-8717-4295-9f4d-cbe6e5a3d9a6")
-	)
-	(wire
-		(pts
 			(xy 340.36 40.64) (xy 335.28 40.64)
 		)
 		(stroke
@@ -15494,16 +12299,6 @@
 			(type solid)
 		)
 		(uuid "39f811e9-ba0b-4219-9e0d-5ac49812a5b3")
-	)
-	(wire
-		(pts
-			(xy 572.77 49.53) (xy 582.93 49.53)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "39feaa63-6405-459a-a4c5-94d2e4cebd9d")
 	)
 	(wire
 		(pts
@@ -15524,26 +12319,6 @@
 			(type solid)
 		)
 		(uuid "3b371262-dfd7-4f2d-afe9-b155feecc357")
-	)
-	(wire
-		(pts
-			(xy 69.85 213.36) (xy 72.39 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b60277c-ea65-4497-8ae7-d4302d42dfc0")
-	)
-	(wire
-		(pts
-			(xy 560.07 128.27) (xy 575.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd77b9e-60c9-47d3-b0ca-d0cb0f3fe079")
 	)
 	(wire
 		(pts
@@ -15587,16 +12362,6 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 152.4) (xy 485.14 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "40b07303-ed51-439b-b5f1-0992667c6389")
-	)
-	(wire
-		(pts
 			(xy 269.24 68.58) (xy 269.24 71.12)
 		)
 		(stroke
@@ -15624,16 +12389,6 @@
 			(type solid)
 		)
 		(uuid "43ff484a-1d1d-4051-88e5-129d8fa798c9")
-	)
-	(wire
-		(pts
-			(xy 596.9 128.27) (xy 594.36 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4562e80f-de71-4457-a0b5-8d65ca591898")
 	)
 	(wire
 		(pts
@@ -15717,7 +12472,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 220.98) (xy 27.94 218.44)
+			(xy 91.44 224.79) (xy 91.44 222.25)
 		)
 		(stroke
 			(width 0)
@@ -15734,16 +12489,6 @@
 			(type default)
 		)
 		(uuid "49c49761-d69b-4585-8664-e7e0d3dde4d6")
-	)
-	(wire
-		(pts
-			(xy 575.31 118.11) (xy 575.31 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6ff9bf-c0ba-4cdb-a094-52b55e7f8c00")
 	)
 	(wire
 		(pts
@@ -15827,16 +12572,6 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 140.97) (xy 594.36 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd77796-8923-4ec4-91d0-5a4504866017")
-	)
-	(wire
-		(pts
 			(xy 370.84 50.8) (xy 386.08 50.8)
 		)
 		(stroke
@@ -15874,16 +12609,6 @@
 			(type solid)
 		)
 		(uuid "51347433-3703-4ffc-86ac-1202204360fe")
-	)
-	(wire
-		(pts
-			(xy 69.85 215.9) (xy 69.85 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513e4552-dc7f-48cb-b526-70c64e7b03f6")
 	)
 	(wire
 		(pts
@@ -15937,16 +12662,6 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 128.27) (xy 589.28 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5387cf59-a751-426d-baa6-b70bfa03a9d3")
-	)
-	(wire
-		(pts
 			(xy 193.675 124.46) (xy 194.31 124.46)
 		)
 		(stroke
@@ -15984,16 +12699,6 @@
 			(type solid)
 		)
 		(uuid "58c71627-1d65-454d-a773-f037c9bccab3")
-	)
-	(wire
-		(pts
-			(xy 490.22 45.72) (xy 490.22 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5a50a397-6e48-47f3-b946-c1c85e3a0db2")
 	)
 	(wire
 		(pts
@@ -16074,16 +12779,6 @@
 			(type solid)
 		)
 		(uuid "5f822809-cb40-4dc1-8b31-621e9e3d8c4f")
-	)
-	(wire
-		(pts
-			(xy 528.32 198.12) (xy 518.16 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5f8895f7-54cf-471b-9d6e-74f4fac4c9d8")
 	)
 	(wire
 		(pts
@@ -16227,26 +12922,6 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 53.34) (xy 499.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67694689-2052-4139-b9f8-5eed657505cc")
-	)
-	(wire
-		(pts
-			(xy 78.74 63.5) (xy 96.52 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "678a331d-cc36-4d22-8e89-13cbba003031")
-	)
-	(wire
-		(pts
 			(xy 213.36 213.36) (xy 220.98 213.36)
 		)
 		(stroke
@@ -16254,16 +12929,6 @@
 			(type solid)
 		)
 		(uuid "68a43442-6c1d-4b18-99f9-55e37dbbbad6")
-	)
-	(wire
-		(pts
-			(xy 490.22 60.96) (xy 487.68 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6b05b7d8-5d48-4109-ada3-56216e2bde45")
 	)
 	(wire
 		(pts
@@ -16284,16 +12949,6 @@
 			(type solid)
 		)
 		(uuid "6b58607d-479d-41b3-b81a-e2de2f82dcf9")
-	)
-	(wire
-		(pts
-			(xy 553.72 198.12) (xy 571.5 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6cf68a76-fa3b-4a28-b436-720d5db0e4ba")
 	)
 	(wire
 		(pts
@@ -16427,16 +13082,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 220.98) (xy 69.85 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755defa9-4850-4ce4-92de-3fde35d3329a")
-	)
-	(wire
-		(pts
 			(xy 220.98 101.6) (xy 226.06 101.6)
 		)
 		(stroke
@@ -16447,16 +13092,6 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 101.6) (xy 548.64 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "75f548e8-4e39-4987-967d-b9580716ed4e")
-	)
-	(wire
-		(pts
 			(xy 434.34 106.68) (xy 441.96 106.68)
 		)
 		(stroke
@@ -16464,16 +13099,6 @@
 			(type solid)
 		)
 		(uuid "75ff414d-c73c-4259-b735-59316f5d9a74")
-	)
-	(wire
-		(pts
-			(xy 91.44 45.72) (xy 91.44 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "76075eb9-5214-4347-885b-e869b095b4e0")
 	)
 	(wire
 		(pts
@@ -16507,16 +13132,6 @@
 	)
 	(wire
 		(pts
-			(xy 490.22 45.72) (xy 499.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7854be9c-bb73-407d-868e-eb8c898e17eb")
-	)
-	(wire
-		(pts
 			(xy 274.32 116.84) (xy 294.64 116.84)
 		)
 		(stroke
@@ -16524,16 +13139,6 @@
 			(type solid)
 		)
 		(uuid "7903f4ab-66a5-4555-81b0-8d4ef9b890c4")
-	)
-	(wire
-		(pts
-			(xy 520.7 31.75) (xy 520.7 34.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7bc5d991-013d-4198-8d30-85c2aa10de50")
 	)
 	(wire
 		(pts
@@ -16564,16 +13169,6 @@
 			(type solid)
 		)
 		(uuid "7d5d3e0a-fdf1-4c93-a185-493814e46d43")
-	)
-	(wire
-		(pts
-			(xy 594.36 114.3) (xy 594.36 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d75471f-ae46-45b3-a204-7b2b26a0d92c")
 	)
 	(wire
 		(pts
@@ -16667,16 +13262,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 91.44 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "818f4807-2e95-4929-89ea-71194b4c3383")
-	)
-	(wire
-		(pts
 			(xy 243.84 167.64) (xy 236.22 167.64)
 		)
 		(stroke
@@ -16694,16 +13279,6 @@
 			(type solid)
 		)
 		(uuid "8248e2a0-ea5e-41f7-b5ec-06efc35f5621")
-	)
-	(wire
-		(pts
-			(xy 492.76 198.12) (xy 482.6 198.12)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "82eaf6a3-ed3d-4459-8e9e-09d3161a4dc3")
 	)
 	(wire
 		(pts
@@ -16827,7 +13402,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 195.58) (xy 45.72 198.12)
+			(xy 109.22 199.39) (xy 109.22 201.93)
 		)
 		(stroke
 			(width 0)
@@ -16877,16 +13452,6 @@
 	)
 	(wire
 		(pts
-			(xy 582.93 49.53) (xy 582.93 39.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8afd47f4-fa1e-4ae3-9ce6-70a1ab3dad0a")
-	)
-	(wire
-		(pts
 			(xy 335.28 71.12) (xy 335.28 53.34)
 		)
 		(stroke
@@ -16907,16 +13472,6 @@
 	)
 	(wire
 		(pts
-			(xy 572.77 46.99) (xy 575.31 46.99)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8b97bdb0-4d50-452a-a57e-56c2428e5245")
-	)
-	(wire
-		(pts
 			(xy 274.32 137.16) (xy 294.64 137.16)
 		)
 		(stroke
@@ -16924,16 +13479,6 @@
 			(type solid)
 		)
 		(uuid "8bb570dc-b2cb-48ff-8088-586fa201b8fd")
-	)
-	(wire
-		(pts
-			(xy 582.93 52.07) (xy 582.93 57.15)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8c419e1d-0522-4abd-a742-fcfeb392b3fb")
 	)
 	(wire
 		(pts
@@ -17085,16 +13630,6 @@
 		)
 		(uuid "95cd5344-aa8f-45e5-a606-219779ae1323")
 	)
-	(wire
-		(pts
-			(xy 487.68 50.8) (xy 490.22 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "96a4d551-100c-4bff-a896-d0d0c0832c2a")
-	)
 	(polyline
 		(pts
 			(xy 180.34 193.04) (xy 322.58 193.04)
@@ -17144,16 +13679,6 @@
 			(type solid)
 		)
 		(uuid "976fd9e4-3021-4a26-b6b3-eb74bce2e0ed")
-	)
-	(wire
-		(pts
-			(xy 572.77 154.94) (xy 575.31 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98017e31-fb83-43c4-b069-4ab6a08e9d69")
 	)
 	(wire
 		(pts
@@ -17304,16 +13829,6 @@
 			(type solid)
 		)
 		(uuid "a0058113-af78-40fd-85c6-f8492a510add")
-	)
-	(wire
-		(pts
-			(xy 69.85 218.44) (xy 72.39 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bfb29d-ae6c-46f0-a986-88ba64831179")
 	)
 	(wire
 		(pts
@@ -17527,16 +14042,6 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 134.62) (xy 548.64 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ae7e3ef8-201c-4838-862d-2ec57ecd2767")
-	)
-	(wire
-		(pts
 			(xy 172.72 226.06) (xy 203.2 226.06)
 		)
 		(stroke
@@ -17544,16 +14049,6 @@
 			(type solid)
 		)
 		(uuid "ae949ac7-69a1-4a21-8cf8-f5e2c66a444e")
-	)
-	(wire
-		(pts
-			(xy 572.77 162.56) (xy 572.77 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea9478d-c8ac-44bf-8d49-2b926dd8f364")
 	)
 	(wire
 		(pts
@@ -17587,16 +14082,6 @@
 	)
 	(wire
 		(pts
-			(xy 575.31 154.94) (xy 579.12 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0472b8e-0366-4432-9e94-e4cc2b17cdaf")
-	)
-	(wire
-		(pts
 			(xy 53.34 53.34) (xy 53.34 55.88)
 		)
 		(stroke
@@ -17614,16 +14099,6 @@
 			(type solid)
 		)
 		(uuid "b0a35948-9119-44b5-931c-47df6dfec13d")
-	)
-	(wire
-		(pts
-			(xy 584.2 144.78) (xy 584.2 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1137fa2-9445-4fb4-bed0-a794c74210b6")
 	)
 	(wire
 		(pts
@@ -17694,16 +14169,6 @@
 			(type solid)
 		)
 		(uuid "b60044e5-3a03-4bea-9b36-3ec1b063e0cd")
-	)
-	(wire
-		(pts
-			(xy 485.14 149.86) (xy 469.9 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b698e731-0403-4f7d-8ee1-11d06d8c9c16")
 	)
 	(wire
 		(pts
@@ -17797,16 +14262,6 @@
 	)
 	(wire
 		(pts
-			(xy 599.44 128.27) (xy 596.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf3c417-7439-4ab9-8112-86b2be91a5e2")
-	)
-	(wire
-		(pts
 			(xy 193.04 66.04) (xy 203.2 66.04)
 		)
 		(stroke
@@ -17814,16 +14269,6 @@
 			(type solid)
 		)
 		(uuid "bc65cb95-4bc7-426d-8542-9084e12a5855")
-	)
-	(wire
-		(pts
-			(xy 96.52 50.8) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bcfbcb11-8793-4861-8e78-b84ac8b33a64")
 	)
 	(wire
 		(pts
@@ -17917,7 +14362,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 218.44) (xy 30.48 218.44)
+			(xy 91.44 222.25) (xy 93.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -17977,26 +14422,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 196.85) (xy 87.63 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c783d23c-7318-4e74-a7ec-9c7d129e0d20")
-	)
-	(wire
-		(pts
-			(xy 548.64 124.46) (xy 535.94 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c785b360-ea50-409b-8207-29c03b7a32a6")
-	)
-	(wire
-		(pts
 			(xy 213.36 165.1) (xy 236.22 165.1)
 		)
 		(stroke
@@ -18007,16 +14432,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 215.9) (xy 72.39 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e2da57-20fb-4634-b839-189fd16f477d")
-	)
-	(wire
-		(pts
 			(xy 226.06 92.075) (xy 226.06 91.44)
 		)
 		(stroke
@@ -18024,26 +14439,6 @@
 			(type solid)
 		)
 		(uuid "c8f42bb1-4710-4a44-8d3e-49c222369024")
-	)
-	(wire
-		(pts
-			(xy 575.31 140.97) (xy 575.31 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c901153c-f6b4-4cc6-ad9d-270268af0675")
-	)
-	(wire
-		(pts
-			(xy 530.86 52.07) (xy 530.86 39.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c97818dd-6b18-44ad-9d3a-a7a08a80d750")
 	)
 	(wire
 		(pts
@@ -18237,26 +14632,6 @@
 	)
 	(wire
 		(pts
-			(xy 575.31 144.78) (xy 575.31 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d52a5579-0ca7-487c-bd51-ff060369c142")
-	)
-	(wire
-		(pts
-			(xy 571.5 185.42) (xy 571.5 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d5d430f0-0aff-4fc7-9d61-aa29e5e7c630")
-	)
-	(wire
-		(pts
 			(xy 35.56 50.8) (xy 35.56 53.34)
 		)
 		(stroke
@@ -18337,16 +14712,6 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 132.08) (xy 596.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce67119-f628-4b8c-98d4-2e791b46535b")
-	)
-	(wire
-		(pts
 			(xy 269.24 226.06) (xy 269.24 231.14)
 		)
 		(stroke
@@ -18354,26 +14719,6 @@
 			(type solid)
 		)
 		(uuid "dd14a7ee-c100-4e7f-9e5b-2a8feb59a58f")
-	)
-	(wire
-		(pts
-			(xy 596.9 162.56) (xy 596.9 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7b76fb-3442-45e0-8f7c-32be5cef6faf")
-	)
-	(wire
-		(pts
-			(xy 575.31 114.3) (xy 575.31 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7fe5ac-91a0-4cfa-8ba0-285835b7884b")
 	)
 	(wire
 		(pts
@@ -18404,16 +14749,6 @@
 			(type solid)
 		)
 		(uuid "decc782c-45fd-4f82-9955-3cc4ea8d75f5")
-	)
-	(wire
-		(pts
-			(xy 599.44 154.94) (xy 596.9 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df49d2c8-2ffc-40a5-b5c5-91d8787490e7")
 	)
 	(wire
 		(pts
@@ -18524,16 +14859,6 @@
 			(type solid)
 		)
 		(uuid "e1213604-bc48-4a31-a2cd-c4059ccd09c2")
-	)
-	(wire
-		(pts
-			(xy 69.85 218.44) (xy 69.85 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14d9d99-4c97-4763-9d3b-7819373dcdea")
 	)
 	(wire
 		(pts
@@ -18977,7 +15302,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 215.9) (xy 27.94 213.36)
+			(xy 91.44 219.71) (xy 91.44 217.17)
 		)
 		(stroke
 			(width 0)
@@ -19014,16 +15339,6 @@
 			(type solid)
 		)
 		(uuid "fbe881bf-e57f-4fcf-ad2f-4897f9832833")
-	)
-	(wire
-		(pts
-			(xy 596.9 154.94) (xy 594.36 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc59384b-da18-49d2-814f-db2158555725")
 	)
 	(wire
 		(pts
@@ -19087,16 +15402,6 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 116.84) (xy 469.9 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fec6454a-0522-4bca-ab5f-015e82f10274")
-	)
-	(wire
-		(pts
 			(xy 386.08 30.48) (xy 386.08 35.56)
 		)
 		(stroke
@@ -19114,16 +15419,6 @@
 			(type solid)
 		)
 		(uuid "ff78483a-5fea-4e4f-a0b0-101353fd011e")
-	)
-	(wire
-		(pts
-			(xy 535.94 132.08) (xy 548.64 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fffd64dd-f16a-4cc0-bf1c-7896c1e3d7c1")
 	)
 	(label "ACLIN"
 		(at 434.34 101.6 90)
@@ -19144,16 +15439,6 @@
 			(justify left bottom)
 		)
 		(uuid "01c90599-3531-4873-b9bb-98d7053fee4d")
-	)
-	(label "ESPSCL"
-		(at 575.31 44.45 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "088d36cf-faa7-4e95-8f09-3ba60a203bfa")
 	)
 	(label "WELD_DETECT"
 		(at 426.72 198.12 0)
@@ -19255,16 +15540,6 @@
 		)
 		(uuid "23f6d67b-ba76-4bbe-b94f-85843dfe0025")
 	)
-	(label "ESPSCL"
-		(at 538.48 134.62 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "257b1afa-e8e7-4330-a700-30c5c5a4e17b")
-	)
 	(label "GFCI_TEST"
 		(at 276.86 132.08 0)
 		(effects
@@ -19315,16 +15590,6 @@
 		)
 		(uuid "317a6586-4bb6-4e23-89b3-e3b4e3819f88")
 	)
-	(label "TXD0"
-		(at 469.9 152.4 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "33d0ab39-8370-4ffe-9f38-299c2a6df79e")
-	)
 	(label "ACLFUSE"
 		(at 335.28 182.88 0)
 		(effects
@@ -19334,16 +15599,6 @@
 			(justify left bottom)
 		)
 		(uuid "374593d5-dcc4-48a1-863b-42ec37d941b9")
-	)
-	(label "LED"
-		(at 538.48 124.46 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d4cd049-d683-499c-8222-d29e5d2552f3")
 	)
 	(label "MOSI"
 		(at 276.86 139.7 0)
@@ -19364,16 +15619,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fcb7b6f-cf1a-4286-860c-396357cd0a1c")
-	)
-	(label "TXD0"
-		(at 571.5 128.27 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "421a382b-7351-446e-b32c-d4a92e7d60b4")
 	)
 	(label "TX1"
 		(at 198.12 68.58 0)
@@ -19465,16 +15710,6 @@
 		)
 		(uuid "5cbd9acd-f13d-4a44-8b1d-670c110f5e13")
 	)
-	(label "TX1"
-		(at 599.44 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61336ae9-1fe4-4446-9be9-7f9561beaeb2")
-	)
 	(label "ACLFUSE"
 		(at 424.18 223.52 0)
 		(effects
@@ -19484,36 +15719,6 @@
 			(justify left bottom)
 		)
 		(uuid "635c2343-02c4-43b0-b6bd-3690022602b8")
-	)
-	(label "GPIO0"
-		(at 490.22 38.1 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6436c550-d46e-40a6-8736-a59c979cbff1")
-	)
-	(label "RXD0"
-		(at 469.9 149.86 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "6722e575-ebbe-421b-bfcf-431cc5df7462")
-	)
-	(label "ESPSDA"
-		(at 575.31 46.99 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "685ae12a-6257-4676-bee8-9d5b29161639")
 	)
 	(label "GMI_LINE"
 		(at 426.72 193.04 0)
@@ -19546,7 +15751,7 @@
 		(uuid "7148086d-b0ee-4db5-a901-79bb4fdcb4e6")
 	)
 	(label "SDA"
-		(at 35.56 203.2 180)
+		(at 99.06 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19564,16 +15769,6 @@
 			(justify right bottom)
 		)
 		(uuid "75f5ba15-bec2-4ec2-a5a9-56545d04c8f6")
-	)
-	(label "RX1"
-		(at 599.44 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78650e04-e4cd-4a5c-a8dc-f28464dcf8b0")
 	)
 	(label "ACNIN"
 		(at 322.58 132.08 0)
@@ -19625,16 +15820,6 @@
 		)
 		(uuid "7b663e7b-23c9-42c1-a789-0e9ac35aef95")
 	)
-	(label "LED"
-		(at 485.14 198.12 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ccd0e0a-098b-45ad-ab0c-1f06e91014f6")
-	)
 	(label "ACTEST1"
 		(at 347.98 114.3 0)
 		(effects
@@ -19654,16 +15839,6 @@
 			(justify left bottom)
 		)
 		(uuid "808fe25a-619c-4473-87dd-a48d911d6599")
-	)
-	(label "ESPRESET"
-		(at 469.9 116.84 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "80c1ad8b-1c22-4f6d-bfc6-4c894caabc16")
 	)
 	(label "ACTEST2"
 		(at 347.98 119.38 0)
@@ -19685,16 +15860,6 @@
 		)
 		(uuid "8399a28c-a9b1-4294-8483-03f52eaa999d")
 	)
-	(label "PIX"
-		(at 562.61 198.12 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "88739052-f459-4c52-95ce-171543d5a74c")
-	)
 	(label "ADC3"
 		(at 276.86 93.98 0)
 		(effects
@@ -19715,18 +15880,8 @@
 		)
 		(uuid "8b4f7742-7f52-4ec9-a4bc-453614d31438")
 	)
-	(label "ESPSCL"
-		(at 81.28 63.5 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "8beda6c9-07df-4bb2-990f-7219e187fb94")
-	)
 	(label "SCL"
-		(at 35.56 205.74 180)
+		(at 99.06 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19734,16 +15889,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e20c013-6f02-457c-a9f3-287270ef4971")
-	)
-	(label "ESPSDA"
-		(at 538.48 132.08 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "9098fbfc-7c7b-44d7-a6af-46fdd2839fa3")
 	)
 	(label "ACRELAY"
 		(at 419.1 109.22 90)
@@ -19885,16 +16030,6 @@
 		)
 		(uuid "b6c08eb1-59a0-4cf7-bf69-ff9a85286582")
 	)
-	(label "GPIO0"
-		(at 538.48 101.6 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8ec3375-d2cf-4b8d-9333-527e22b8f325")
-	)
 	(label "ACN"
 		(at 560.07 223.52 180)
 		(effects
@@ -19935,16 +16070,6 @@
 		)
 		(uuid "cc769f50-c3e1-4dff-8bb9-ff52df3b5696")
 	)
-	(label "ESPSDA"
-		(at 77.47 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1d1c82d-e410-49c5-93b5-2c99dd700a4a")
-	)
 	(label "ACNIN"
 		(at 482.6 223.52 0)
 		(effects
@@ -19954,16 +16079,6 @@
 			(justify left bottom)
 		)
 		(uuid "d268d2cf-9b9e-4d45-9ce0-85353787d608")
-	)
-	(label "ESPSCL"
-		(at 77.47 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d88897f8-c0ac-4ee3-963d-b0d1e81da92f")
 	)
 	(label "ACRELAY"
 		(at 320.04 127 0)
@@ -19995,16 +16110,6 @@
 		)
 		(uuid "e24d5445-86f7-439c-99b5-7441e9308179")
 	)
-	(label "ESPRESET"
-		(at 520.7 52.07 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "e57ae275-ff8f-4b23-a521-226420c3c564")
-	)
 	(label "ACLIN"
 		(at 459.74 226.06 0)
 		(effects
@@ -20034,16 +16139,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec1558ec-68e3-49b8-bbd6-93c5d1df2e5c")
-	)
-	(label "ESPSDA"
-		(at 81.28 60.96 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec483998-6c1d-4e83-8110-7f034f6a7222")
 	)
 	(label "SDA"
 		(at 20.32 60.96 0)
@@ -20114,26 +16209,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5799402-a4bd-4a06-8867-fd72afa932c1")
-	)
-	(label "ESPRESET"
-		(at 530.86 46.99 90)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7abd1e6-2376-4fc2-87ca-85a4a2cf7d50")
-	)
-	(label "RXD0"
-		(at 566.42 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8e95ab5-9940-4f9e-92ad-4457e0a9d86f")
 	)
 	(label "AC_RELAY_1"
 		(at 276.86 134.62 0)
@@ -20254,7 +16329,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 33.02 218.44 0)
+		(at 96.52 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20262,7 +16337,7 @@
 		(dnp no)
 		(uuid "00c0aa9d-a83c-4ce9-adbe-c5b6556d8d02")
 		(property "Reference" "JP6"
-			(at 33.02 217.17 0)
+			(at 96.52 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20270,15 +16345,15 @@
 			)
 		)
 		(property "Value" "MCP1_A2"
-			(at 19.05 218.44 0)
+			(at 82.55 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 218.44 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 96.52 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20287,7 +16362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 218.44 0)
+			(at 96.52 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20296,7 +16371,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 33.02 218.44 0)
+			(at 96.52 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20314,72 +16389,6 @@
 			(project "Juice Rescue v2 - hw1.0.2"
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "JP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:supply1_GND")
-		(at 520.7 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "019476b8-92e9-452f-8a46-1841fac6ef8f")
-		(property "Reference" "#GND30"
-			(at 520.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 518.16 67.31 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 520.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 520.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 520.7 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bfd8211-8c29-400a-b503-a82db380953b")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#GND30")
 					(unit 1)
 				)
 			)
@@ -20450,79 +16459,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "AMP0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 584.2 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02fe28ef-0b97-4806-b778-cbe689d46a81")
-		(property "Reference" "Q3"
-			(at 584.2 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 584.2 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 582.295 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 580.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 584.2 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ef1113d-a4cf-4936-aaca-f1c481789c4e")
-		)
-		(pin "3"
-			(uuid "e6466d2f-284e-48c7-83f2-23a5cdca64b5")
-		)
-		(pin "1"
-			(uuid "4f0b0462-e06a-40d4-9220-dc93b888e471")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -20661,72 +16597,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 568.96 195.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0481486b-4fbc-4181-b3bd-0be795165add")
-		(property "Reference" "#U$31"
-			(at 568.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 566.42 194.056 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 568.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 568.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 568.96 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e83659f-6a26-47bc-a16b-c4eeb23635e4")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$31")
 					(unit 1)
 				)
 			)
@@ -21013,72 +16883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 96.52 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06098a24-4143-4eaa-a7b7-99164590ec2d")
-		(property "Reference" "#U$014"
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 94.996 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d309db1f-92f5-4383-bbfa-544188d38071")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+12V")
 		(at 396.24 134.62 180)
 		(unit 1)
@@ -21205,76 +17009,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "#P+1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 575.31 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ce16c18-88db-4938-80ca-c47ee8103374")
-		(property "Reference" "R42"
-			(at 577.85 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 577.85 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 573.532 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 575.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 575.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22bed94f-8975-4e06-a649-00f77ec4ba8d")
-		)
-		(pin "2"
-			(uuid "141ac4c4-ca49-432e-a7fb-87de37ae63b5")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -21554,81 +17288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:SWITCH_TACT_SMT4.6X2.8")
-		(at 518.16 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15c2b760-c591-4528-be60-58b9cc0e31dc")
-		(property "Reference" "RESET0"
-			(at 511.81 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "KMR2"
-			(at 523.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:BTN_KMR2_4.6X2.8"
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 518.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A'"
-			(uuid "33a1d2e1-a90b-4c42-a001-39267b3cc613")
-		)
-		(pin "A"
-			(uuid "892abe07-5a9e-4991-8a0a-4c78a7e03109")
-		)
-		(pin "B"
-			(uuid "f7d82f6f-cdbd-4026-9c9e-ed376276787d")
-		)
-		(pin "B'"
-			(uuid "fa783274-207a-4353-be07-4d9d2393da04")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "RESET0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 187.96 104.14 0)
 		(unit 1)
@@ -21765,204 +17424,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 546.1 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19fa92ca-325a-4f59-937d-22cba7abcb6a")
-		(property "Reference" "#U$6"
-			(at 546.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 544.576 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 546.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 546.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 546.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c607625a-af5d-43c5-a732-01ce1339ae72")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:GND")
-		(at 69.85 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a85767c-4216-4ec4-9a0d-2352aff44e1a")
-		(property "Reference" "#GND08"
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 226.06 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cc7c643-9100-41b1-ba00-54d0065249f7")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 575.31 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c2c6fb4-c803-4b50-bfbd-094d8610ba0d")
-		(property "Reference" "#U$03"
-			(at 575.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 573.786 137.414 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 575.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 575.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 575.31 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03fa419c-d3b9-418d-9e14-3fc39ac2c572")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:PE")
 		(at 378.46 195.58 270)
 		(unit 1)
@@ -22092,72 +17553,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 582.93 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d990557-3e8d-42f7-8dd7-92000e2656c6")
-		(property "Reference" "#U$12"
-			(at 582.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 581.406 35.814 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 582.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 582.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 582.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4d6f55a-f43b-466f-aa74-0ee6fb4ae201")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$12")
 					(unit 1)
 				)
 			)
@@ -22300,7 +17695,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:GND")
-		(at 45.72 226.06 0)
+		(at 109.22 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22308,7 +17703,7 @@
 		(dnp no)
 		(uuid "20b4b2d8-8161-4ca2-814a-5e183a6f05ed")
 		(property "Reference" "#GND025"
-			(at 45.72 226.06 0)
+			(at 109.22 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22317,7 +17712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 228.6 0)
+			(at 106.68 232.41 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -22326,7 +17721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 226.06 0)
+			(at 109.22 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22335,7 +17730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 226.06 0)
+			(at 109.22 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +17739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 226.06 0)
+			(at 109.22 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23515,81 +18910,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:QWIIC_CONNECTORJS-1MM")
-		(at 565.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35cc9136-407a-4c57-9eb6-eb024a316404")
-		(property "Reference" "SFQ0"
-			(at 560.07 41.656 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "QWIIC_CONNECTORJS-1MM"
-			(at 560.07 54.864 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:JST04_1MM_RA"
-			(at 565.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 565.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 565.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "047a651f-9b69-4c75-9c20-92349dfb025b")
-		)
-		(pin "4"
-			(uuid "d1b97044-93e3-4aed-b5c4-56aff1080d29")
-		)
-		(pin "3"
-			(uuid "9610033b-1c8b-4ed5-bfc6-3b02e28ca1de")
-		)
-		(pin "1"
-			(uuid "f81103ec-c44c-453f-823e-8ae2748610be")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "SFQ0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 261.62 66.04 0)
 		(unit 1)
@@ -23653,72 +18973,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:SparkFun-PowerSymbols_GND")
-		(at 582.93 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "378a8952-5b55-481c-a228-cffb2f0e58a1")
-		(property "Reference" "#GND33"
-			(at 582.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 582.93 59.944 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" ""
-			(at 582.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 582.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 582.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffeeaf44-121d-4b5d-89b6-46d168b9390e")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#GND33")
 					(unit 1)
 				)
 			)
@@ -23992,72 +19246,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 87.63 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b6fd83f-1551-4107-9d8b-a9d93f1d3dba")
-		(property "Reference" "#U$08"
-			(at 87.63 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 86.106 193.294 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "528212f2-afe8-4331-9f0b-e3bcfdc90d28")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$08")
 					(unit 1)
 				)
 			)
@@ -24490,147 +19678,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 584.2 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40fe2637-3b03-45bf-b30b-681759553f9f")
-		(property "Reference" "Q4"
-			(at 584.2 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 584.2 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 582.295 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 580.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 584.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "633d0fd8-940c-42d4-aae0-45ef8adc5aa7")
-		)
-		(pin "3"
-			(uuid "29b821c8-a365-49ae-b654-691d22dcbe0a")
-		)
-		(pin "1"
-			(uuid "d705a901-062b-4f8d-b5cd-fa6ce7344191")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:supply1_GND")
-		(at 490.22 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41131e5d-0b49-4e81-92f9-74fa655b5950")
-		(property "Reference" "#GND32"
-			(at 490.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 487.68 66.04 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 490.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 490.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 490.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d42e8fae-54f5-4956-9f83-f24cda12d853")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#GND32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 33.02 213.36 0)
+		(at 96.52 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24638,7 +19687,7 @@
 		(dnp no)
 		(uuid "41d176c2-e2f3-41b1-b688-aa536f4d90d4")
 		(property "Reference" "JP4"
-			(at 33.02 212.09 0)
+			(at 96.52 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24646,15 +19695,15 @@
 			)
 		)
 		(property "Value" "MCP1_A0"
-			(at 19.05 213.36 0)
+			(at 82.55 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 213.36 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 96.52 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24663,7 +19712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 213.36 0)
+			(at 96.52 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24672,7 +19721,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 33.02 213.36 0)
+			(at 96.52 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24771,75 +19820,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805")
-		(at 520.7 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "429a57f8-3cb2-47cc-9624-103f363ac0d1")
-		(property "Reference" "R13"
-			(at 517.906 48.26 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 516.89 37.592 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-			(at 520.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 520.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 520.7 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a5e33b4-df48-40a9-a37e-59996e3dc396")
-		)
-		(pin "2"
-			(uuid "a62fbad8-0bc0-4469-82af-2a4ec91b57a1")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -24978,72 +19958,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "GFCI0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 530.86 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4581cffc-d046-424a-ab33-1f2c03a00a3e")
-		(property "Reference" "#U$42"
-			(at 530.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 529.336 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 530.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 530.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 530.86 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc7b250e-bb53-4d77-b0e5-cebe5bcb452a")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$42")
 					(unit 1)
 				)
 			)
@@ -25455,76 +20369,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "SH2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 594.36 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c6c1757-7a39-444a-b9b1-313ea5dfed3c")
-		(property "Reference" "R41"
-			(at 596.9 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 596.9 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 592.582 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 594.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 594.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d919763-dcdf-4cca-ac4a-42349c65e4b5")
-		)
-		(pin "2"
-			(uuid "a34d4bf2-bef8-4c6b-8f47-523e25a7ce6b")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -26066,75 +20910,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "#P+13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
-		(at 91.44 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59f5a541-b4b6-4704-a9ce-c6172675c2e6")
-		(property "Reference" "R44"
-			(at 89.9414 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 94.742 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e66dc28-4fb8-4c61-b5ed-a69b06f371f7")
-		)
-		(pin "2"
-			(uuid "5736014a-f659-4bc9-865a-aa8be618b656")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -26751,75 +21526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:1.0UF-0805-25V-(+80/-20%)")
-		(at 499.11 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6281b6e0-3955-4867-96d3-a3537db51fce")
-		(property "Reference" "C38"
-			(at 500.634 55.499 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1.0uF"
-			(at 500.634 60.579 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-			(at 499.11 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 499.11 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 499.11 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "446635c2-b764-4b8b-a06e-0b1f65d7ae9e")
-		)
-		(pin "2"
-			(uuid "56e7dfef-430c-4498-a8fd-b540e63fd194")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:BCX70SMD")
 		(at 378.46 119.38 270)
 		(mirror x)
@@ -26894,7 +21600,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:GND")
-		(at 27.94 223.52 0)
+		(at 91.44 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26902,7 +21608,7 @@
 		(dnp no)
 		(uuid "646b39ef-f87d-408c-bdfb-edba91eee32a")
 		(property "Reference" "#GND05"
-			(at 27.94 223.52 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26911,7 +21617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 226.06 0)
+			(at 88.9 229.87 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -26920,7 +21626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 223.52 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26929,7 +21635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 223.52 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26938,7 +21644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 223.52 0)
+			(at 91.44 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27184,75 +21890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:1.0UF-0805-25V-(+80/-20%)")
-		(at 530.86 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65c8921c-7dbc-4478-91a9-94b84d94e56a")
-		(property "Reference" "C8"
-			(at 532.384 54.229 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1.0uF"
-			(at 532.384 59.309 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-			(at 530.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 530.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 530.86 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca04a7bf-1b50-4bdd-a1ff-d36fa03b7dca")
-		)
-		(pin "2"
-			(uuid "8d358804-fd5e-4512-9c2f-d58a89956acd")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+5V")
 		(at 307.34 101.6 270)
 		(unit 1)
@@ -27313,81 +21950,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "#P+8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:WS2812B3535")
-		(at 505.46 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6649907e-f91d-4b6e-8d68-74caf717bdd9")
-		(property "Reference" "LED1"
-			(at 505.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B3535"
-			(at 505.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:LED3535"
-			(at 505.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "351d1bd0-f808-46e7-ae7b-706b1ab69edc")
-		)
-		(pin "4"
-			(uuid "5b2e87ca-1d98-4c82-9da4-6ecee5c610e8")
-		)
-		(pin "2"
-			(uuid "ec8330a1-3bbc-49a2-ad80-f6fd55d4b96d")
-		)
-		(pin "1"
-			(uuid "2d260dc2-9645-439c-b5c8-04997697a0da")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -27520,73 +22082,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "G1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 74.93 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68f98b54-00c5-4e6f-a3b3-05de4e1fd555")
-		(property "Reference" "JP7"
-			(at 74.93 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP0_A0"
-			(at 60.96 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 74.93 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c25f1e0c-761b-4da8-aaba-0dc23c392c2e")
-		)
-		(pin "2"
-			(uuid "39659f3f-627c-449b-87b8-9b5496486eb0")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -28007,204 +22502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 520.7 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fa27ebc-5787-41aa-a27b-12f1d5069099")
-		(property "Reference" "#U$5"
-			(at 520.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 519.176 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 520.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 520.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 520.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fc80ef5-9794-416c-b930-9c534476c0eb")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 508 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "705c2399-3342-401b-862f-05d1a4dfdd44")
-		(property "Reference" "#U$37"
-			(at 508 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 506.476 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 508 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 508 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 508 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73daea5e-cde4-4b52-a2a0-64a878c10599")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 575.31 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70f8315e-1ab6-452a-92a8-1a918652b609")
-		(property "Reference" "#U$01"
-			(at 575.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 573.786 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 575.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 575.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 575.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2eb52218-ffdb-4479-a9cc-aa4bfa8381cc")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 215.9 121.92 0)
 		(mirror y)
@@ -28419,73 +22716,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 560.07 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "735b1f4d-8c6a-4da3-be60-62dab1dce3de")
-		(property "Reference" "TP2"
-			(at 562.61 135.3819 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TXD0"
-			(at 562.61 137.9219 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 554.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 554.99 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 560.07 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04ce36d4-82f9-479c-85e3-aba39fe7b2f4")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -28775,76 +23005,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 594.36 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76874389-b4bf-4ec9-9e52-30d02a67f8dd")
-		(property "Reference" "R43"
-			(at 596.9 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 596.9 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 592.582 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 594.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 594.36 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffb7a7a9-e9da-4d60-8566-b3fe971b368a")
-		)
-		(pin "2"
-			(uuid "6fcdc1bf-3c0a-47e3-ba26-f6ecd06bced2")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
 		(at 228.6 40.64 270)
 		(unit 1)
@@ -28908,72 +23068,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 541.02 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77117b41-f42b-4d38-94d4-659932173fa0")
-		(property "Reference" "#U$11"
-			(at 541.02 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 539.496 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 541.02 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 541.02 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 541.02 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e2c25d7-9f79-4492-9a9a-2738e1584948")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$11")
 					(unit 1)
 				)
 			)
@@ -29109,81 +23203,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "AC0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:WS2812B3535")
-		(at 541.02 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79da40ce-215f-47e6-baa7-156b179185b6")
-		(property "Reference" "LED2"
-			(at 541.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "WS2812B3535"
-			(at 541.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:LED3535"
-			(at 541.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 541.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 541.02 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "b523b73a-a1a8-492e-a299-938293df87d8")
-		)
-		(pin "1"
-			(uuid "e3632e89-a248-4091-9ce4-7fa0c53c7812")
-		)
-		(pin "2"
-			(uuid "2c0ff381-39e5-4cde-806e-416d0009a7e7")
-		)
-		(pin "3"
-			(uuid "81467d6f-e9d6-4a63-be5d-efa67588ab1e")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -29529,207 +23548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 508 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "824880a4-94d0-4328-939b-88948ffd1f0e")
-		(property "Reference" "#U$26"
-			(at 508 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 506.476 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 508 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 508 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 508 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "657942b9-37d4-45e8-9128-c1f7aa7de8dd")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
-		(at 96.52 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83645998-ecf4-428d-ad96-74dd4ccec8ab")
-		(property "Reference" "R45"
-			(at 95.0214 62.23 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 99.822 62.23 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:0805"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edecce8c-55a1-4767-968a-d63cd053d694")
-		)
-		(pin "1"
-			(uuid "4679c015-e30b-4333-b1b7-6c9727d9fbcb")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+5V")
-		(at 594.36 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "838c81e9-6663-4a65-9296-ab82550252fa")
-		(property "Reference" "#P+026"
-			(at 594.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 591.82 116.84 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 594.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 594.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 594.36 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c12b3ee-aa25-4c59-ac73-d1474eb0f4f7")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#P+026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:LMV358")
 		(at 287.02 213.36 0)
 		(unit 2)
@@ -30010,73 +23828,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "#P+5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 596.9 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d200326-65dd-4eb9-bf47-d56d139a1b74")
-		(property "Reference" "TP3"
-			(at 599.44 164.5919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TX1"
-			(at 599.44 167.1319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 591.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 591.82 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 596.9 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6cd0951-9618-437c-ac68-0ba21acf8d6d")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -30366,72 +24117,6 @@
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "IC1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:GND")
-		(at 87.63 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92934ccb-7e6e-4e8b-b4ed-063bef8539e3")
-		(property "Reference" "#GND026"
-			(at 87.63 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 228.6 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef152e08-8c0a-47cb-8227-80f14ac56be4")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#GND026")
-					(unit 1)
 				)
 			)
 		)
@@ -30863,250 +24548,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 596.9 132.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9df58549-00fd-41e4-92de-087d324ec5e8")
-		(property "Reference" "TP4"
-			(at 599.44 134.1119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RX1"
-			(at 599.44 136.6519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 591.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 591.82 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 596.9 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "855f6368-f340-49f2-9fc9-08cdc6580752")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:ESP32_WROOM32_SKINNY")
-		(at 508 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9dfcb952-674a-4eca-a1b2-84aa5c5a6c41")
-		(property "Reference" "X2"
-			(at 508 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32"
-			(at 508 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:WROOM32_SKINNY"
-			(at 508 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 508 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 508 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7ae4cf8c-e9d5-44f8-9307-515acb8be89b")
-		)
-		(pin "1"
-			(uuid "4efa84b4-9741-4d87-bdf8-ae0785f06922")
-		)
-		(pin "13"
-			(uuid "52018e96-3164-47ae-9b74-98dcca248e95")
-		)
-		(pin "35"
-			(uuid "983f0889-3958-4ba5-b1f3-d1ad870c8cf0")
-		)
-		(pin "15"
-			(uuid "9003e2b7-e7b0-4255-ba94-850446e2d4ee")
-		)
-		(pin "21"
-			(uuid "ebeffe46-6c77-487d-8c3a-eb7ecc03e35d")
-		)
-		(pin "19"
-			(uuid "15dad3a6-1c6a-485a-a0f6-4fbb3be82dde")
-		)
-		(pin "P$1"
-			(uuid "7e3aa918-c21d-47ef-80e0-2d83ab6d1fb8")
-		)
-		(pin "2"
-			(uuid "67d0790f-65f4-43a1-9e32-b8a03a96bdd6")
-		)
-		(pin "25"
-			(uuid "5b3d03ee-7ffd-49a8-9105-67b003be75dc")
-		)
-		(pin "26"
-			(uuid "8184f1cd-668a-41dd-a106-d9db32b6f603")
-		)
-		(pin "29"
-			(uuid "a1bbad71-27a0-46bc-99dd-ab60af0c78e1")
-		)
-		(pin "16"
-			(uuid "731079a7-5ec6-4a9e-94bb-7f29b405ea96")
-		)
-		(pin "14"
-			(uuid "67b1fe0e-dd03-4dc3-8870-840c3323cc2c")
-		)
-		(pin "18"
-			(uuid "40e7d4e7-1865-4f2d-b5ec-9178c371164b")
-		)
-		(pin "3"
-			(uuid "1127af3d-6b71-4d7c-9c93-063c6b76916d")
-		)
-		(pin "17"
-			(uuid "9c34c8c0-4f4a-4d19-95a1-60030ae959a4")
-		)
-		(pin "20"
-			(uuid "999acea2-1e93-4038-bcc1-541d57292a71")
-		)
-		(pin "5"
-			(uuid "6ef9e269-770f-4a93-9b5b-6bd763492768")
-		)
-		(pin "22"
-			(uuid "b8ae9769-3c49-4139-86e1-fd9f43acffd8")
-		)
-		(pin "34"
-			(uuid "1bde1f29-d66f-45e8-ac80-be82f5cee8ee")
-		)
-		(pin "38"
-			(uuid "592ff322-9979-4def-9342-113ada8acb2d")
-		)
-		(pin "24"
-			(uuid "aea688b0-f508-4427-be94-e5eee045abd2")
-		)
-		(pin "23"
-			(uuid "f1de5e41-b3a9-4029-bd79-ce15ee77a96d")
-		)
-		(pin "27"
-			(uuid "bf3ff08d-7ac7-45ab-bcee-301c4ece47d3")
-		)
-		(pin "28"
-			(uuid "f4cbf2ef-d72a-4419-a253-b2c0eb062adc")
-		)
-		(pin "30"
-			(uuid "64b3e7e0-97ac-4ad2-9cbc-7a47978ed424")
-		)
-		(pin "10"
-			(uuid "9dafd9f4-102e-4920-b83a-7f619d1dd463")
-		)
-		(pin "36"
-			(uuid "b841dd62-26e6-4cf8-ad58-72710d0ab7ff")
-		)
-		(pin "11"
-			(uuid "5f10696d-4630-4c23-a23a-5a6718ddf967")
-		)
-		(pin "9"
-			(uuid "7f2dacff-fc99-4495-ac0d-4ef85ecb4698")
-		)
-		(pin "37"
-			(uuid "ae888f4b-c49d-4cb2-9c74-26f7dddfb589")
-		)
-		(pin "12"
-			(uuid "1da18a2f-9819-4534-9a17-1e4872829aeb")
-		)
-		(pin "8"
-			(uuid "c8452c59-337f-4724-8cbe-46081e147e8c")
-		)
-		(pin "31"
-			(uuid "2482590b-f518-4b9d-881f-12b085f4e69d")
-		)
-		(pin "7"
-			(uuid "cd494426-4cb5-4ec1-9c5f-78a62bf28f07")
-		)
-		(pin "33"
-			(uuid "a8923b03-75d0-43c6-b28d-73d6882913b0")
-		)
-		(pin "6"
-			(uuid "d1ddf3ea-1785-4205-8a81-803bbca95fc2")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:supply1_GND")
 		(at 309.88 30.48 180)
 		(unit 1)
@@ -31167,78 +24608,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "#GND1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:M03JST-SMD")
-		(at 579.12 195.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f0584a0-84cc-4139-ba36-4d8d0393bfd2")
-		(property "Reference" "LED0"
-			(at 581.66 201.422 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3-PIN SMD"
-			(at 581.66 187.96 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:JST-3-SMD"
-			(at 579.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 579.12 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b744f3a-27f2-42b1-a397-96d54b7dc8da")
-		)
-		(pin "3"
-			(uuid "fc9eae80-18d1-46d0-9a6b-64e42b8a01c8")
-		)
-		(pin "2"
-			(uuid "76549af7-70ad-4770-9221-6f0edca00d5e")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "LED0")
 					(unit 1)
 				)
 			)
@@ -32219,81 +25588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:SWITCH_TACT_SMT4.6X2.8")
-		(at 487.68 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8cdf48c-8cbf-452a-9765-56f53c3668ed")
-		(property "Reference" "BOOT0"
-			(at 481.33 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "KMR2"
-			(at 492.76 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Juice Rescue v2 - hw1.0.2:BTN_KMR2_4.6X2.8"
-			(at 487.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 487.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 487.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B"
-			(uuid "91ed95c7-808b-48ed-8c44-3af27ce5fd50")
-		)
-		(pin "A"
-			(uuid "a29ab5c2-4c84-4bf2-8dbb-355f35021b6d")
-		)
-		(pin "A'"
-			(uuid "df20a754-ee2c-4cc4-8e8a-6d4d7777279d")
-		)
-		(pin "B'"
-			(uuid "6a6bac2c-8394-480d-8f57-affe9b7eb358")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "BOOT0")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 251.46 195.58 90)
 		(unit 1)
@@ -32907,72 +26201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+5V")
-		(at 594.36 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b36c89f8-e66a-4e57-918a-7983d1610ebc")
-		(property "Reference" "#P+027"
-			(at 594.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 591.82 143.51 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 594.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 594.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 594.36 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "103329d2-c78c-4844-aeb0-20eae188e32f")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#P+027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 215.9 55.88 0)
 		(unit 1)
@@ -33457,73 +26685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 572.77 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bac62526-e7cf-400a-8cd7-68c9e3d88cab")
-		(property "Reference" "TP1"
-			(at 575.31 164.5919 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RXD0"
-			(at 575.31 167.1319 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 567.69 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 567.69 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 572.77 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf297963-3fde-4aa9-b47d-66e26f44a9b6")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:CAP0805")
 		(at 53.34 50.8 0)
 		(unit 1)
@@ -33864,72 +27025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 91.44 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd3daab3-ff29-4cfe-a42a-f0c225dd6a2c")
-		(property "Reference" "#U$09"
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 89.916 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf91b1a5-c72d-4355-ac82-107dbcac9e81")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
 		(at 243.84 200.66 180)
 		(unit 1)
@@ -34138,7 +27233,7 @@
 	)
 	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:+5V")
-		(at 45.72 193.04 0)
+		(at 109.22 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34146,7 +27241,7 @@
 		(dnp no)
 		(uuid "c379c924-ad02-47ea-b76f-fcdc610c42ac")
 		(property "Reference" "#P+028"
-			(at 45.72 193.04 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34155,7 +27250,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 43.18 198.12 90)
+			(at 106.68 201.93 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -34164,7 +27259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 193.04 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34173,7 +27268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 193.04 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34182,7 +27277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 193.04 0)
+			(at 109.22 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34631,7 +27726,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Temperature:MCP9808_MSOP")
-		(at 45.72 210.82 0)
+		(at 109.22 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34640,7 +27735,7 @@
 		(fields_autoplaced yes)
 		(uuid "c96a92d6-c242-4be7-84fe-9a696a6ed390")
 		(property "Reference" "U4"
-			(at 62.23 204.3998 0)
+			(at 125.73 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34648,7 +27743,7 @@
 			)
 		)
 		(property "Value" "MCP9808_MSOP"
-			(at 62.23 206.9398 0)
+			(at 125.73 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34656,7 +27751,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 45.72 210.82 0)
+			(at 109.22 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34665,7 +27760,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf"
-			(at 39.37 199.39 0)
+			(at 102.87 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34674,7 +27769,7 @@
 			)
 		)
 		(property "Description" "±0.25°C (±0.5°C) Typical (Maximum), Digital Temperature Sensor, MSOP-8"
-			(at 45.72 210.82 0)
+			(at 109.22 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34710,76 +27805,6 @@
 			(project "Juice Rescue v2 - hw1.0.2"
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 575.31 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "caa77dfc-4406-4bfe-9e31-8ad8d11578ed")
-		(property "Reference" "R40"
-			(at 577.85 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 577.85 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 573.532 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 575.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 575.31 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df71242-db70-4301-882f-7b47b67c6a02")
-		)
-		(pin "2"
-			(uuid "0a4b0d49-a379-4a57-a343-9fc028794475")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -34985,140 +28010,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 74.93 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cec17dc8-ac0a-44cf-8cf3-157a20d0a9e2")
-		(property "Reference" "JP8"
-			(at 74.93 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP0_A1"
-			(at 60.96 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 74.93 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ed32353-52af-40c0-94ec-c4e666169ea7")
-		)
-		(pin "2"
-			(uuid "6dd936be-c794-4193-8c2f-19c0b756bd1e")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "JP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 74.93 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfbf16fd-2b40-4961-a189-81680fe89c88")
-		(property "Reference" "JP9"
-			(at 74.93 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP0_A2"
-			(at 60.96 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 74.93 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be6e8a82-5b7a-40cf-8101-c8dacfbc5168")
-		)
-		(pin "2"
-			(uuid "2f917485-aaba-4ec7-96bd-431ff292f930")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -36321,72 +29212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 499.11 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2859e59-a5f3-4e32-a51e-cb67bcb0ab5e")
-		(property "Reference" "#U$017"
-			(at 499.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 497.586 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 499.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 499.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 499.11 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6d10989-652d-4169-be75-ccc53a702496")
-		)
-		(instances
-			(project "Juice Rescue v2 - hw1.0.2"
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
 		(at 139.7 132.08 0)
 		(unit 1)
@@ -36954,72 +29779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:microbuilder_GND")
-		(at 505.46 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea1fb197-5990-421c-982b-6b0bcd048e60")
-		(property "Reference" "#U$13"
-			(at 505.46 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 503.936 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 505.46 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 505.46 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6f28bec-cd47-42c9-8299-e0fdb4f9b9e2")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:supply1_GND")
 		(at 287.02 175.26 0)
 		(unit 1)
@@ -37285,72 +30044,6 @@
 			(project "Juice Rescue v2 - hw1.0.2"
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 510.54 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb878e70-f3f9-4cee-9e9f-243f783ef345")
-		(property "Reference" "#U$4"
-			(at 510.54 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 509.016 176.784 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 510.54 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fc6fc3a-c2b8-4ad7-a5ed-13171e0e9569")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$4")
 					(unit 1)
 				)
 			)
@@ -37635,7 +30328,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 33.02 215.9 0)
+		(at 96.52 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37643,7 +30336,7 @@
 		(dnp no)
 		(uuid "ef427197-5a09-4222-bb92-0bc997413446")
 		(property "Reference" "JP5"
-			(at 33.02 214.63 0)
+			(at 96.52 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37651,15 +30344,15 @@
 			)
 		)
 		(property "Value" "MCP1_A1"
-			(at 19.05 215.9 0)
+			(at 82.55 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 215.9 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 96.52 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37668,7 +30361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 215.9 0)
+			(at 96.52 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37677,7 +30370,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 33.02 215.9 0)
+			(at 96.52 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37833,92 +30526,6 @@
 			(project ""
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:MCP9808_MSOP")
-		(at 87.63 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f49a3d20-d53e-4d31-ad11-8f2b4b629ffc")
-		(property "Reference" "U3"
-			(at 104.14 204.3998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP9808_MSOP"
-			(at 104.14 206.9398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 87.63 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22203b.pdf"
-			(at 81.28 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±0.25°C (±0.5°C) Typical (Maximum), Digital Temperature Sensor, MSOP-8"
-			(at 87.63 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9194ba9-d794-4b10-8862-38911a1e9015")
-		)
-		(pin "5"
-			(uuid "35c89cae-91e4-4d8a-a7ee-8840ecc7227b")
-		)
-		(pin "7"
-			(uuid "deda3542-35d5-4184-b83e-33166e482645")
-		)
-		(pin "1"
-			(uuid "6bfd1159-d803-4fe3-b4b3-467a7cb02803")
-		)
-		(pin "6"
-			(uuid "293743ea-799d-4d73-b257-c1b16b40b819")
-		)
-		(pin "8"
-			(uuid "fa40c981-da68-4d5d-8478-cc9a8418875f")
-		)
-		(pin "3"
-			(uuid "5ed90744-ffc2-47dd-865e-7e4699d03a63")
-		)
-		(pin "4"
-			(uuid "c081af3b-75c6-4cba-93ab-a56baf28397a")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -38274,72 +30881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:3.3V")
-		(at 571.5 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd2cb82f-e5e4-4bbc-8876-eb9494c54d96")
-		(property "Reference" "#U$29"
-			(at 571.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 569.976 181.864 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 571.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 571.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 571.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92632a8f-7b76-4ee8-b8a7-040638ee5ffe")
-		)
-		(instances
-			(project ""
-				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
-					(reference "#U$29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Juice Rescue v2 - hw1.0.2-eagle-import:RESISTOR0805-RES")
 		(at 284.48 127 0)
 		(unit 1)
@@ -38404,6 +30945,48 @@
 				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
 					(reference "R31")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 513.08 92.71)
+		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fe9eeef-2b06-4079-8ab9-e76c0634f520")
+		(property "Sheetname" "ESP32"
+			(at 513.08 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 513.08 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Juice Rescue v2 - hw1.0.2"
+				(path "/dc23f6cf-65e9-4621-9791-f98f2f73fe59"
+					(page "2")
 				)
 			)
 		)
